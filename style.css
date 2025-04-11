@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fffaf0;
+  color: #333;
+  line-height: 1.6;
+}
+
+.hero {
+  background: linear-gradient(to bottom, #fff8e1, #ffe082);
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #bfa200;
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.about {
+  padding: 40px 20px;
+  background: #fff3e0;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #f5f5dc;
+  color: #bfa200;
+}
