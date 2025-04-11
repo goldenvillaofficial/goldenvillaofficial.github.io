@@ -1,28 +1,78 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GOLDEN VILLA</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>GoldenVilla (VILLA)</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background: #0f0f0f;
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .gold {
+      color: #FFD700;
+    }
+  </style>
 </head>
 <body>
-  <header class="hero">
-    <img src="assets/logo.png" alt="Golden Villa Logo" class="logo" />
-    <h1>GOLDEN VILLA</h1>
-    <p>Modern, minimalis, tropical dan elegan dalam nuansa emas.</p>
-  </header>
-
-  <section class="about">
-    <h2>Tentang Kami</h2>
-    <p>
-      Golden Villa adalah hunian eksklusif yang mengusung desain tropis
-      modern, minimalis dengan sentuhan kemewahan emas yang elegan.
-    </p>
+  <!-- Hero Section -->
+  <section class="min-h-screen flex flex-col items-center justify-center text-center p-8">
+    <img src="logo.png" alt="GoldenVilla Logo" class="w-40 mb-6" />
+    <h1 class="text-4xl md:text-6xl font-bold gold mb-4">GoldenVilla (VILLA)</h1>
+    <p class="text-lg md:text-xl max-w-xl mb-6">Meme coin bergaya hidup tropis elegan di jaringan Solana. Rasakan liburan dalam dunia crypto.</p>
+    <div class="space-x-4">
+      <a href="#about" class="bg-gold text-black px-6 py-2 rounded-xl font-semibold hover:brightness-110">Pelajari Lebih Lanjut</a>
+    </div>
   </section>
 
-  <footer>
-    <p>&copy; 2025 Golden Villa. All rights reserved.</p>
-  </footer>
+  <!-- Tentang VILLA -->
+  <section id="about" class="py-16 px-6 md:px-24 bg-black text-white">
+    <h2 class="text-3xl gold font-bold mb-4">Tentang VILLA</h2>
+    <p class="mb-4 max-w-3xl">GoldenVilla (VILLA) adalah proyek token meme coin elegan di jaringan Solana. Menggabungkan gaya hidup tropis dan eksklusif dengan semangat komunitas digital. Supply terbatas, cepat, dan penuh gaya.</p>
+  </section>
+
+  <!-- Tokenomics -->
+  <section id="tokenomics" class="py-16 px-6 md:px-24 bg-[#1a1a1a] text-white">
+    <h2 class="text-3xl gold font-bold mb-8">Tokenomics</h2>
+    <ul class="space-y-2 text-lg">
+      <li>🔥 Liquidity Pool: 40% (20,000,000)</li>
+      <li>🎁 Airdrop & Giveaway: 25% (12,500,000)</li>
+      <li>👨‍💻 Tim & Pengembangan: 15% (7,500,000)</li>
+      <li>🌴 Komunitas & Marketing: 10% (5,000,000)</li>
+      <li>💼 Cadangan: 10% (5,000,000)</li>
+    </ul>
+  </section>
+
+  <!-- Roadmap -->
+  <section id="roadmap" class="py-16 px-6 md:px-24 bg-black text-white">
+    <h2 class="text-3xl gold font-bold mb-8">Roadmap</h2>
+    <div class="space-y-6">
+      <div><strong class="gold">Fase 1 - Pendirian:</strong> Token dibuat, branding & website dirilis.</div>
+      <div><strong class="gold">Fase 2 - Komunitas:</strong> Airdrop, aktivasi sosial media, kolaborasi kreator.</div>
+      <div><strong class="gold">Fase 3 - Ekspansi:</strong> Listing DEX, rilis NFT & merchandise.</div>
+      <div><strong class="gold">Fase 4 - Evolusi:</strong> Integrasi game/metaverse, kolaborasi proyek lifestyle.</div>
+    </div>
+  </section>
+
+  <!-- Kenapa Memilih VILLA -->
+  <section id="why" class="py-16 px-6 md:px-24 bg-[#1a1a1a] text-white">
+    <h2 class="text-3xl gold font-bold mb-6">Kenapa Memilih VILLA?</h2>
+    <ul class="list-disc list-inside space-y-2">
+      <li>Branding unik: meme + gaya hidup elegan</li>
+      <li>Jaringan Solana: cepat dan murah</li>
+      <li>Supply terbatas: hanya 50 juta token</li>
+      <li>Komunitas fokus: bukan sekadar hype</li>
+    </ul>
+  </section>
+
+  <!-- Kontak -->
+  <section id="contact" class="py-16 px-6 md:px-24 bg-black text-white text-center">
+    <h2 class="text-3xl gold font-bold mb-4">Kontak & Sosial Media</h2>
+    <p class="mb-2">🌐 Website: <a href="https://goldenvilla.io" class="underline gold">goldenvilla.io</a></p>
+    <p class="mb-2">🐦 Twitter: @VillaGoldCoin (coming soon)</p>
+    <p>📧 Email: support@goldenvilla.io (coming soon)</p>
+  </section>
 </body>
 </html>
