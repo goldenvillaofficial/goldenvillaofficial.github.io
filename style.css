@@ -1,37 +1,21 @@
-body {
-  margin: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #fffaf0;
-  color: #333;
-  line-height: 1.6;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GoldenVilla</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="hero">
+    <div class="overlay">
+      <img src="logo.png" alt="GoldenVilla Logo" class="logo" />
 
-.hero {
-  background: linear-gradient(to bottom, #fff8e1, #ffe082);
-  text-align: center;
-  padding: 60px 20px;
-}
+      <h1 class="title">GoldenVilla</h1>
+      <p class="tagline">Modern. Tropical. Exclusive.</p>
 
-.logo {
-  width: 100px;
-  height: auto;
-  margin-bottom: 20px;
-}
-
-h1 {
-  color: #bfa200;
-  font-size: 3rem;
-  margin-bottom: 10px;
-}
-
-.about {
-  padding: 40px 20px;
-  background: #fff3e0;
-}
-
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #f5f5dc;
-  color: #bfa200;
-}
+      <a href="GoldenVilla_Whitepaper_EN.pdf" target="_blank" class="btn">📄 Explore Whitepaper</a>
+    </div>
+  </div>
+</body>
+</html>

@@ -2,69 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>GoldenVilla</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body class="bg-white text-gray-900">
-  <!-- Hero Section -->
-  <section class="relative h-screen bg-cover bg-center" style="background-image: url('assets/villapulau-1920-overlay.png');">
-    <div class="absolute inset-0 bg-black bg-opacity-30"></div>
-    <div class="relative z-10 flex flex-col items-center justify-center h-full text-white text-center px-4">
-      <h1 class="text-4xl md:text-6xl font-bold tracking-wide">GoldenVilla</h1>
-      <p class="text-lg md:text-2xl mt-4 max-w-xl">Modern. Tropical. Exclusive.</p>
-      <a href="#whitepaper" class="mt-6 inline-block bg-yellow-400 hover:bg-yellow-500 text-black font-semibold py-3 px-6 rounded-full shadow-lg transition">Explore VILLA</a>
+<body>
+  <div class="hero">
+    <div class="overlay">
+      <img src="logo.png" alt="GoldenVilla Logo" class="logo" />
+
+      <h1 class="title">GoldenVilla</h1>
+      <p class="tagline">Modern. Tropical. Exclusive.</p>
+
+      <a href="GoldenVilla_Whitepaper_EN.pdf" target="_blank" class="btn">📄 Explore Whitepaper</a>
     </div>
-  </section>
-
-  <!-- About Section -->
-  <section class="py-20 px-6 bg-white text-center">
-    <h2 class="text-3xl md:text-4xl font-bold mb-6">Tentang GoldenVilla</h2>
-    <p class="max-w-3xl mx-auto text-lg text-gray-700">
-      GoldenVilla adalah proyek crypto dengan konsep vila tropis di pulau pribadi, memadukan nuansa kemewahan, kesederhanaan modern, dan gaya hidup eksklusif. Dibangun di jaringan Solana, VILLA adalah meme coin dengan visi komunitas kuat dan branding ikonik.
-    </p>
-  </section>
-
-  <!-- Tokenomics Section -->
-  <section class="py-20 px-6 bg-gray-100 text-center">
-    <h2 class="text-3xl md:text-4xl font-bold mb-6">Tokenomics</h2>
-    <div class="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-      <div>
-        <h3 class="text-xl font-semibold mb-2">Total Supply</h3>
-        <p>1,000,000,000 VILLA</p>
-      </div>
-      <div>
-        <h3 class="text-xl font-semibold mb-2">Liquidity</h3>
-        <p>Locked & Verified</p>
-      </div>
-      <div>
-        <h3 class="text-xl font-semibold mb-2">Tax</h3>
-        <p>0% Buy / 0% Sell</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- Roadmap Section -->
-  <section class="py-20 px-6 bg-white text-center">
-    <h2 class="text-3xl md:text-4xl font-bold mb-6">Roadmap</h2>
-    <ul class="max-w-3xl mx-auto text-left list-disc list-inside text-gray-700">
-      <li><strong>Phase 1:</strong> Website Launch, Community Build</li>
-      <li><strong>Phase 2:</strong> DEX Listing, Airdrop</li>
-      <li><strong>Phase 3:</strong> Partnerships, NFT Integration</li>
-      <li><strong>Phase 4:</strong> Metaverse Expansion</li>
-    </ul>
-  </section>
-
-  <!-- Call to Action -->
-  <section class="py-20 px-6 bg-yellow-100 text-center">
-    <h2 class="text-3xl md:text-4xl font-bold mb-4">Bergabunglah dengan Komunitas VILLA</h2>
-    <p class="text-lg mb-6">Gabung sekarang dan jadilah bagian dari gerakan tropis yang eksklusif!</p>
-    <a href="#" class="bg-yellow-500 hover:bg-yellow-600 text-white font-semibold py-3 px-8 rounded-full transition">Join Now</a>
-  </section>
-
-  <!-- Footer -->
-  <footer class="py-6 bg-gray-800 text-center text-white">
-    <p>&copy; 2025 GoldenVilla. All rights reserved.</p>
-  </footer>
+  </div>
 </body>
 </html>
