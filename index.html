@@ -5,125 +5,95 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>GoldenVilla</title>
   <style>
-    body {
+    * {
       margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body, html {
+      height: 100%;
       font-family: 'Segoe UI', sans-serif;
-      background: url('villapulau-1920-overlay.png') no-repeat center center fixed;
-      background-size: cover;
       color: white;
+      overflow-x: hidden;
+    }
+
+    .video-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1;
+      object-fit: cover;
     }
 
     .overlay {
-      background-color: rgba(0, 0, 0, 0.6); /* gelap elegan */
+      position: relative;
+      background: rgba(0, 0, 0, 0.5); /* transparan hitam */
       min-height: 100vh;
-      padding: 50px 20px;
-    }
-
-    .container {
-      max-width: 800px;
-      margin: auto;
+      padding: 80px 20px;
       text-align: center;
     }
 
     .logo {
-      max-width: 250px;
-      margin: 0 auto 20px;
+      margin-bottom: 20px;
     }
 
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.2rem;
-      color: #FFD700;
+    .logo img {
+      height: 100px;
     }
 
-    h3 {
-      font-weight: normal;
-      margin-bottom: 40px;
+    .title {
+      font-size: 2.5em;
+      font-weight: bold;
+      color: gold;
+      margin-bottom: 10px;
+    }
+
+    .tagline {
       font-style: italic;
+      color: #ddd;
+      margin-bottom: 30px;
     }
 
-    .whitepaper {
-      background-color: rgba(255, 255, 255, 0.1);
-      padding: 20px;
-      border-radius: 12px;
+    .content {
+      max-width: 800px;
+      margin: auto;
       text-align: left;
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 30px;
+      border-radius: 20px;
     }
 
-    .whitepaper h2 {
-      color: #FFD700;
-      margin-top: 30px;
+    .content h2 {
+      color: gold;
     }
 
-    .whitepaper p {
-      margin: 10px 0;
-      line-height: 1.6;
-    }
-
-    .whitepaper ul {
-      margin-left: 20px;
-      line-height: 1.6;
-    }
-
-    a {
-      color: #FFD700;
+    .content strong {
+      color: #ffffff;
     }
   </style>
 </head>
 <body>
+  <video autoplay muted loop class="video-bg">
+    <source src="Background bergerak.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+
   <div class="overlay">
-    <div class="container">
-      <img src="logo.png" alt="GoldenVilla Logo" class="logo" />
-      <h1>GoldenVilla</h1>
-      <h3>Modern. Tropical. Exclusive.</h3>
+    <div class="logo">
+      <img src="LOGO-VILLA.png" alt="Villa Logo"/>
+    </div>
+    <div class="title">GoldenVilla</div>
+    <div class="tagline">Modern. Tropical. Exclusive.</div>
 
-      <div class="whitepaper">
-        <h2>1. Introduction</h2>
-        <p>GoldenVilla (VILLA) is a meme coin project built on the Solana blockchain with an elegant twist...</p>
-
-        <h2>2. Mission & Vision</h2>
-        <p><strong>Mission:</strong> To create a digital space...</p>
-        <p><strong>Vision:</strong> To become the strongest-branded...</p>
-
-        <h2>3. Technology</h2>
-        <ul>
-          <li><strong>Blockchain:</strong> Solana</li>
-          <li><strong>Token Type:</strong> SPL Token</li>
-          <li><strong>Max Supply:</strong> 50,000,000 VILLA</li>
-          <li><strong>Smart Contract:</strong> No staking...</li>
-        </ul>
-
-        <h2>4. Token Distribution</h2>
-        <ul>
-          <li>Liquidity Pool: 40% - 20,000,000</li>
-          <li>Team & Development: 10% - 5,000,000</li>
-          <li>Community & Marketing: 35% - 17,500,000</li>
-          <li>Reserve: 15% - 7,500,000</li>
-        </ul>
-
-        <h2>5. Roadmap</h2>
-        <ul>
-          <li><strong>Phase 1 - Foundation:</strong> Token launch, branding...</li>
-          <li><strong>Phase 2 - Community:</strong> Social media, content creators...</li>
-          <li><strong>Phase 3 - Expansion:</strong> Listings on DEX/CEX...</li>
-          <li><strong>Phase 4 - Evolution:</strong> Metaverse, collaborations...</li>
-        </ul>
-
-        <h2>6. Why Choose VILLA?</h2>
-        <ul>
-          <li>Unique branding: meme meets luxury</li>
-          <li>Fast, low-cost with Solana</li>
-          <li>Limited supply: 50M tokens</li>
-          <li>Community driven with style</li>
-        </ul>
-
-        <h2>7. Core Team</h2>
-        <p>Built by anonymous creatives with expertise in crypto, design, and community-building...</p>
-
-        <h2>8. Contact</h2>
-        <p>🌐 Website: <a href="https://goldenvilla.io">goldenvilla.io</a></p>
-        <p>🐦 Twitter: @GoldenVillaCoin</p>
-        <p>📧 Email: Goldenvillacoin@gmail.com</p>
-      </div>
+    <div class="content">
+      <h2>1. Introduction</h2>
+      <p>GoldenVilla (VILLA) is a meme coin project built on the Solana blockchain with an elegant twist...</p>
+      <h2>2. Mission & Vision</h2>
+      <p><strong>Mission:</strong> To create a digital space...</p>
+      <p><strong>Vision:</strong> To become the strongest-branded...</p>
+      <!-- Lanjutkan dengan bagian whitepaper lainnya -->
     </div>
   </div>
 </body>
